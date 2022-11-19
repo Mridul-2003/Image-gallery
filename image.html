@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Image Gallery Design</h1>
+    <div>
+        <img id="image" onclick="change1()" src="" alt="" width="800">
+    </div>
+    <div class="gallery">
+        <img  onclick="change1()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/1200px-Giant_Panda_2004-03-2.jpg" alt="Panda">
+        <img  onclick="change2()" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/106BF/production/_127336276_leatherbackseaturtle.jpg" alt="Turtle">
+        <img  onclick="change3()" src="https://a-z-animals.com/media/tiger_laying_hero_background.jpg" alt="Tiger">
+        <img  onclick="change4()" src="https://images.ctfassets.net/9l3tjzgyn9gr/photo-112402/cf25fec1eea7ab0665f586b3481e436c/112402-rabbit-lucky-animals-510x600.jpg" alt="Rabbit">
+        <img  onclick="change5()" src="https://media.npr.org/assets/img/2022/06/22/gettyimages-1238924365_wide-b1f7435f5e1e69d0b3a32ad364de7204c89cc15e.jpg" alt="Dolphin">
+    </div>
+    <script>
+        function change1()
+        {
+            document.getElementById('image').src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/1200px-Giant_Panda_2004-03-2.jpg";
+        }
+        function change2()
+        {
+            document.getElementById('image').src="https://ichef.bbci.co.uk/news/976/cpsprodpb/106BF/production/_127336276_leatherbackseaturtle.jpg";
+
+        }
+        function change3()
+        {
+            document.getElementById('image').src="https://a-z-animals.com/media/tiger_laying_hero_background.jpg";
+        }
+        function change4()
+        {
+            document.getElementById('image').src="https://images.ctfassets.net/9l3tjzgyn9gr/photo-112402/cf25fec1eea7ab0665f586b3481e436c/112402-rabbit-lucky-animals-510x600.jpg";
+        }
+        function change5()
+        {
+            document.getElementById('image').src="https://media.npr.org/assets/img/2022/06/22/gettyimages-1238924365_wide-b1f7435f5e1e69d0b3a32ad364de7204c89cc15e.jpg";
+        }
+    </script>
+</body>
+</html>
